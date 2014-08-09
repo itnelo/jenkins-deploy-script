@@ -15,8 +15,8 @@ while getopts ":a:w:b:" o; do
             _workspace=${OPTARG}
             ;;
         b)
-			_build_number=${OPTARG}
-			;;
+	    _build_number=${OPTARG}
+	    ;;
         *)
             usage
             ;;

@@ -7,4 +7,4 @@ Use in jenkins as end step of project building (after pulling changes from repos
 
 Example (with [jenkins environment variables](https://wiki.jenkins-ci.org/display/JENKINS/Building+a+software+project#Buildingasoftwareproject-JenkinsSetEnvironmentVariables)):
 
-	./symlink.sh -w /var/lib/jenkins/jobs/jenkins-deploy-script/builds/37 -a /home/itnelo/jenkins-deploy-script -b 37
+	./symlink.sh -w /var/lib/jenkins/jobs/deploy-script/builds/37 -a /home/script -b 37
